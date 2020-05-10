@@ -11,7 +11,6 @@ class Calcul extends Component {
         this.addItem = this.addItem.bind(this);
       }
 
-
       itemSubmit = (evt, item) => {
         console.log('ok')
         // this.setState({result: (parseInt(this.state.accuracy) + parseInt(this.state.kill))/100})
@@ -23,6 +22,7 @@ class Calcul extends Component {
         items[id] = {
           id: id, 
           minute: 1,
+          sensitivity: '',
           accuracy: '',
           kill: '',
           // result: ''
