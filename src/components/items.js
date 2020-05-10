@@ -15,7 +15,7 @@ const Item = ({item, onItemChange, itemSubmit}) => {
                     <label htmlFor={labels.sensitivity.text}>{labels.sensitivity.text}</label>
                     <input 
                         type="number" 
-                        name="sensibility" 
+                        name="sensitivity" 
                         value={item.sensitivity} 
                         onChange={evt => onItemChange(evt, item, "sensitivity")} 
                     />
