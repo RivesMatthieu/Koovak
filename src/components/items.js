@@ -2,7 +2,7 @@ import React from 'react';
 
 const Item = ({item, onItemChange, itemSubmit}) => {
     const labels = {
-        sensitivity : {text: 'Sensibility'},
+        sensitivity : {text: 'Sensitivity'},
         kill : {text: 'Kill'},
         accuracy : {text: 'Accuracy'},
         sum : {text: 'Go !'},
