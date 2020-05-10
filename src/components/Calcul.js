@@ -25,7 +25,7 @@ class Calcul extends Component {
           minute: 1,
           accuracy: '',
           kill: '',
-          result: accuracy + kill
+          // result: ''
         };
         this.setState({items})
       }
